@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>order</title>
+    <link rel="stylesheet" href="order.css">
+  </head>
+  <body class="hello" style="background-image: url('fc_barcelona_patterns_02.jpg');">
+    <div class="data">
+       <div class="heading">
+       <h1 class="title1"><img src="ggb.png" alt="visca el barca"> FC BARCELONA<h6 class="title2"> THE FANPAGE⚽ </h6></h1>
+       </div>
+       <div class="boom">
+         <div class="butdiv">
+           <button class="buttonn" type="button" name="button"><a class="link" href="C:\Users\Shrithik Raj\Documents\web development\fcb\index.html">Home</a></button>
+           <button class="buttonn" type="button" name="button"><a class="link" href="C:\Users\Shrithik Raj\Documents\web development\fcb\merchandise-main\index1.html">Merch</a></button>
+           <button class="buttonn" type="button" name="button"><a class="link" href="C:\Users\Shrithik Raj\Documents\web development\fcb\prediction.html">Pred</a></button>
+         </div>
+       </div>
+
+
+     </div>
+    <div class="order">
+      <form class="" onsubmit="rendering()" action="includes/signup.php" method="post">
+        <table class = "tb">
+          <h2 class="orderd fontd">Customer Details</h2>
+          <hr class = "line">
+          <tr>
+            <td class = "td"><p class="fontd" for="">Name:</p></td>
+            <td class = "td"><input id="name" class="inputb" type="text" name="fname" value="" onkeyup="checkname()"></td>
+            <td class = "td"><p id="checkname" class="invalid1">invalid name</p></td>
+            <td class = "td"><p id="mandatory" class="invalid1">*mandatory</p></td>
+          </tr>
+          <tr>
+            <td class = "td"><p class="fontd">Phone:</p></td>
+            <td class = "td"><input id="number" type="text" name="phone" value="" onkeyup="checkphone()"></td>
+            <td class = "td"><p id="checknum" class="invalid2">invalid number</p></td>
+            <td class = "td"><p id="mandatory1" class="invalid1">*mandatory</p></td>
+          </tr>
+          <tr>
+            <td class = "td"><p class="fontd">Email:</p></td>
+            <td class = "td"><input id="email" type="email" name="email" value="" onkeyup="checkmail()"></td>
+            <td class = "td"><p id="checkemail" class="invalid3">invalid Email</p></td>
+            <td class = "td"><p id="mandatory2" class="invalid1">*mandatory</p></td>
+          </tr>
+          <tr class = "td">
+            <td class="fontd td">Address:</td>
+            <td class = "td"><textarea id= "address" name="address" rows="5" cols="80"></textarea></td><br>
+          </tr>
+
+        </table>
+        <button  class="fontd submit" type="submit" name="button">Submit</button>
+
+      </form>
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script src="index1.js" charset="utf-8"></script>
+    </div>
+
+    <div class="sponsors">
+      <h2>OUR SPONSORS</h2>
+    </div>
+    <div class="spon">
+      <div id="sponsor1" class="lol">
+        <img class="spimg0" src="beer.png" alt="">
+      </div>
+
+      <div id="sponsor2" class="lol">
+        <img class="spimg1" src="nike.png" alt="">
+      </div>
+
+      <div id="sponsor3" class="lol">
+        <img class="spimg2" src="search.png" alt="">
+      </div>
+
+      <div id="sponsor4" class="lol">
+        <img class="spimg3" src="spain.png" alt="">
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="footer">
+
+        <h3>© COPYRIGHT FC Barcelona fanpage, all rights reserved.</h3>
+      </div>
+    </footer>
+
+
+
+  </body>
+</html>

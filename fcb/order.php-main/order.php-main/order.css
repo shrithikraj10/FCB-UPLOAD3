@@ -1,0 +1,235 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.title1 {
+  position: absolute;
+  top: 30px;
+  padding-left: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  color: #EDBB00;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.title2 {
+  position: absolute;
+  top: 65px;
+  padding-left: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8175rem;
+  font-weight: bold;
+  color: #EDBB00;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.data {
+  background-image: linear-gradient(45deg, #000040,#A70042);
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 7rem;
+  width: 100%;
+}
+
+.heading{
+  width: 50%;
+  border-width: 0 0 5px 0;
+  border-style: solid;
+  border-color: #A50044;
+}
+
+.boom {
+  width: 50%;
+  border-width: 0 0 5px 0;
+  border-style: solid;
+  border-color:  #28527a;
+}
+
+.butdiv{
+  width: 250px;
+  position: relative;
+  left: 390px;
+  top: 40px;
+
+}
+
+.buttonn {
+  background-color: #28527a;
+  border: none;
+  color: #EDBB00;
+  text-shadow: 0 0 2px #b29700, 0 0 4px #b29700;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-color: #b2970;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+}
+.buttonn:hover{
+  background-color: #A50044;
+  color: yellow;
+}
+.link{
+  text-decoration: none;
+  color: #EDBB00;
+  text-shadow: 0 0 2px #b29700, 0 0 4px #b29700;
+}
+
+
+
+.orderd{
+  font-family: 'Staatliches', cursive;
+  font-size: 35px;
+
+
+}
+
+.line{
+  border-style:solid;
+  border-width: 2.9px;
+  background: yellow;
+  color: yellow ;
+}
+
+.order{
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  background: linear-gradient( 45deg, rgba(0, 0, 255, 0.4), rgba(128, 0, 128, 0.9) );
+  font-family: 'Staatliches', cursive;
+  font-size: 23px;
+  margin: 150px 150px 100px 150px;
+  padding: 70px;
+}
+
+.td{
+  padding: 10px;
+}
+
+#name{
+  height: 20px;
+  width: 100%;
+}
+#number{
+  height: 20px;
+  width: 100%;
+}
+#email{
+  height: 20px;
+  width: 100%;
+}
+#address{
+  width: 100%;
+}
+.submit{
+    width: 525px;
+    margin-top: 20px;
+    margin-left: 110px;
+    background-color: yellow;
+    border: none;
+    color: red;
+    padding: 10px 12px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: #b2970;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .submit:hover{
+    background-color: #A50044;
+    color: yellow;
+  }
+  .sponsors {
+    background-image: linear-gradient(45deg,#A70042, #000040,#A50044);
+    color: #EDBB00;
+    padding: 30px 0 5px 0;
+    font-family: sans-serif;
+    text-align: center;
+    height: 50px;
+    margin: 30px 0;
+    width: 100%;
+  }
+
+  .spon {
+    width: 100%;
+    display: flex;
+  }
+
+  #sponsor1 {
+    opacity: 90%;
+    background-color: #c30911;
+    width: 25%;
+    height: 100px;
+  }
+
+  #sponsor2 {
+    background-color: #EDBB00;
+    width: 25%;
+    height: 100px;
+  }
+
+  #sponsor3 {
+    background-color: #c30911;
+    width: 25%;
+    height: 100px;
+  }
+
+  #sponsor4 {
+    background-color: #EDBB00;
+    width: 25%;
+    height: 100px;
+  }
+
+  .spimg0 {
+    margin-top: 25px;
+    margin-left: 125px;
+    margin-bottom: 30px;
+  }
+
+  .spimg1 {
+    position: relative;
+    bottom: 10px;
+    left: 120px;
+  }
+
+  .spimg2 {
+    margin-left: 127px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .spimg3 {
+    margin-left: 127px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .emptydiv1 {
+    display: none;
+  }
+
+  .footer {
+    opacity: 70%;
+    color: white;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+  }
