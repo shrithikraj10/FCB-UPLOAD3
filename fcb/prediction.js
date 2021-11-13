@@ -14,7 +14,7 @@ document.querySelector(".noom2").value = "";
 
 console.log(team1)
 
-document.querySelector(".moooo").style.backgroundImage = 'prediction-images/noubravo.jpeg';
+document.querySelector(".moooo").style.backgroundImage = 'https://github.com/shrithikraj10/FCB-UPLOAD3/blob/main/fcb/prediction-images/noubravo.jpeg';
 document.querySelector(".mother-div").style.display = "none";
 document.querySelector(".main-title").style.display = "none";
 document.querySelector(".moooo").style.display = "block";
